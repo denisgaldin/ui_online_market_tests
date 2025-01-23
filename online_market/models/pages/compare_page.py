@@ -9,7 +9,7 @@ class ComparePage:
             browser.all('.button').first.click()
         return self
 
-    def delete_product(self):
+    def del_product(self):
         with allure.step("Удаляем товар со страницы сравнения"):
             products = browser.element('#details')
             products.all('.compare-prd-img-wrap').first.element('.tag-compare-close').click()

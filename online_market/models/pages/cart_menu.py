@@ -10,14 +10,14 @@ class CartMenu:
             first_monitor.click()
         return self
 
-    def delete_product(self):
-        with allure.step("Удаляем монитор из корзины"):
-            browser.element('.dropdown-menu .delA').click()
+    def should_product(self):
+        with (allure.step("Проверяем что монитор добавился в корзину")):
+            browser.element('.cartMenu .cartRespons').should(have.text('1 ТОВАР')).hover()
         return self
 
-    def should_product_added_to_cart(self):
-        with (allure.step("Проверяем, что монитор добавился в корзину")):
-            browser.element('.cartMenu .cartRespons').should(have.text('1 ТОВАР')).hover()
+    def del_product(self):
+        with allure.step("Удаляем монитор из корзины"):
+            browser.element('.dropdown-menu .delA').click()
         return self
 
     def should_del_product(self):
