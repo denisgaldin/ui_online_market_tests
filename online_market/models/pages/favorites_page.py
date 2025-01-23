@@ -9,7 +9,7 @@ class FavoritesPage:
             browser.all('.button').second.click()
         return self
 
-    def delete_product(self):
+    def del_product(self):
         with allure.step("Удаляем товар со страницы с избранным"):
             products = browser.element('#productsList')
             products.all('.item').first.element('.tag-fav-close').click()
