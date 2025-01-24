@@ -60,7 +60,7 @@ __Каждый тест содержит детальную информацию
 
 [Тест-кейсы](https://allure.autotests.cloud/launch/44144/tree/689780?treeId=0)
 
-<img width="1200" src="/pictures/allure-test-opts.png">
+<img width="1200" src="/pictures/allure_test_opts.png">
 
 ---
 
