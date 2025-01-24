@@ -33,7 +33,7 @@
 2. __Выбрать пункт `Build with Parameters`__
 3. __Результат запуска сборки можно посмотреть в отчете Allure__
 
-<img width="1200" src="/pictures/jenkins-report.png">
+<img width="1200" src="/pictures/jenkins_report.png">
 
 ---
 
