@@ -29,7 +29,7 @@
 
 ## <img width="4%" title="Jenkins" src="/pictures/icons/jenkins-original.svg"> Запуск проекта в Jenkins
 #### Для запуска автотестов в Jenkins
-1. __Открыть проект <a href="https://jenkins.autotests.cloud/job/diplom_ui_online_market/">в Jenkins</a>__
+1. __Открыть проект <a href="https://jenkins.autotests.cloud/job/online_market_diplom/">в Jenkins</a>__
 2. __Выбрать пункт `Build with Parameters`__
 3. __Результат запуска сборки можно посмотреть в отчете Allure__
 
